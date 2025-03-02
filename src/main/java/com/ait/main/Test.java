@@ -2,6 +2,6 @@ package com.ait.main;
 
 public class Test {
 
-	int x=90;
+	int y=34;
 
 }
