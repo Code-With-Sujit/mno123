@@ -66,7 +66,7 @@ public class Main {
 		*/
 		
 		//fetching category
-	/*	
+		
 		CategoryEntity entity = dao.fetchCategory(101);
 		System.out.println("Category id : "+entity.getCategoryId());
         System.out.println("Category name : "+entity.getCategoryName());
@@ -74,11 +74,11 @@ public class Main {
         entity.getListOfProducts().forEach(product->{
         	System.out.println(product.getProductId() +" "+product.getProductName());
         });
-      */
+      
 		
 		//removing category and its corresponding product
 		
-		dao.removeCategory(101);
+		//dao.removeCategory(101);
 
 		
 	}
